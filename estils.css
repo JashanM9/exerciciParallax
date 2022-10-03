@@ -1,0 +1,64 @@
+.content{
+    width: 80vw;
+}
+
+
+.firstDiv, .secondDiv, .thirdDiv{
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.firstDiv{
+    background-image: url("hola2.jpg");
+}
+
+.secondDiv{
+    background-image: url("hola1.jpeg");
+}
+
+.thirdDiv{
+    background-image: url("hola3.jpg");
+}
+
+.contentDiv{
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    opacity: .6;
+    position: relative;
+    left: 15%;
+    top: 15%;
+}
+
+.contentDiv>h1{
+    text-align: center;
+    padding-top: 25px;
+}
+
+ul{
+    background-color: coral;
+    opacity: .8;
+}
+
+li{
+    display: inline-block;
+    border-style: solid;
+    margin-left: 20%;
+}
+
+.divDelCover1{
+    background-image: url("hola2.jpg");
+    border: 10px dotted olivedrab;
+    background-size: 25%;
+    background-repeat: no-repeat;
+}
+
+h1::after{
+    content: "!!";
+}
+
+h1::before{
+    content: "¡¡";
+}
