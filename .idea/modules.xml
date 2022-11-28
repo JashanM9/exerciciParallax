@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../laravel/g/.idea/g.iml" filepath="$PROJECT_DIR$/../../laravel/g/.idea/g.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/parallax.iml" filepath="$PROJECT_DIR$/.idea/parallax.iml" />
     </modules>
   </component>
