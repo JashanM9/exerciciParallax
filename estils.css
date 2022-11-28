@@ -1,5 +1,10 @@
+*{
+    font-size: 3px;
+}
+
 .content{
     width: 80vw;
+    /* hola comment */
 }
 
 
@@ -34,25 +39,26 @@
 
 .contentDiv>h1{
     text-align: center;
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 ul{
-    background-color: coral;
+    background-color: red;
     opacity: .8;
 }
 
 li{
     display: inline-block;
     border-style: solid;
-    margin-left: 20%;
 }
 
 .divDelCover1{
-    background-image: url("hola2.jpg");
-    border: 10px dotted olivedrab;
-    background-size: 25%;
+    background-image: url("hola1.jpeg");
+    border: 2px dotted olivedrab;
+    background-size: cover;
     background-repeat: no-repeat;
+    width: 20vh;
+    height: 20vh;
 }
 
 h1::after{
